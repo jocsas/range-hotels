@@ -4,7 +4,7 @@ html{
     font-family: sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: "Oxygen";
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
 }
 .clearfix::after, .row::after{
     content: '';
@@ -187,6 +187,7 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (min-width: 62.5em) {
     .top-content{
         background:#521a66 url(../images/bg_topo_1198x670.jpg);
+        background-repeat: no-repeat;
         height: 19em;
         padding-top: 15em;
     }    
@@ -194,6 +195,7 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (min-width: 74em){
     .top-content{
         background: #521a66 url(../images/bg_topo_1600x1374.jpg);
+        background-repeat: no-repeat;
         padding: 17em 20em 10em;
         background-position: center top;
         
